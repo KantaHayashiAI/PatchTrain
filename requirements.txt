@@ -1,0 +1,8 @@
+# Requirements for PatchTrain
+# Note: The training script expects transformers>=4.34 and datasets>=1.8
+transformers>=4.34
+datasets>=1.8
+# PyTorch is required for model training
+torch
+# Optional but recommended for better attention performance
+flash-attn
